@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(/Timer-JavaScript/images/winter.jpg);
+    background-color: ;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: -400px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.countdown-container {
+    display: flex;
+}
+.days-c {
+}
+.big-text {
+    font-size: 80px;
+    line-height: 1;
+    margin: 0 30px;
+    font-weight: bold;
+}
+.coundown-el {
+    text-align: center;
+}
+.coundown-el span {
+    font-size: 30px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
+    .big-text {
+        font-size: 20px;
+    }
+    .coundown-el span {
+        font-size: 16px;
+    }
+}
